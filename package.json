@@ -1,8 +1,8 @@
 {
   "name": "ng-emptytext-library",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is an example of as getting started to create an library for angular",
+  "main": "empty-text.umd.js",
   "jsnext:main": "empty-text.esm.js",
   "module": "empty-text.esm.js",
   "types": "empty-text.d.ts",
@@ -19,7 +19,15 @@
     "build": "npm run bundle && npm run copy",
     "publish": "cd ./dist && npm publish"
   },
-  "keywords": [],
+  "keywords": [
+    "angular",
+    "directive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kronos-training/ng-emptytext-library"
+  },
+  "homepage": "https://github.com/kronos-training/ng-emptytext-library#readme",  
   "author": "Vanessa M. Paco Ramos <vanessapr.85@gmail.com>",
   "license": "MIT",
   "devDependencies": {
