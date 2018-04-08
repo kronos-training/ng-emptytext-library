@@ -15,7 +15,7 @@
     "build:umd": "rimraf dist && rollup -c rollup.config.umd.js",
     "build:esm": "rimraf dist && rollup -c rollup.config.esm.js",
     "bundle": "rimraf dist && rollup -c rollup.config.umd.js && rollup -c rollup.config.esm.js && tsc && ngc",
-    "postbundle": "node tools/removecode.js",
+    "postbundle2": "node tools/removecode.js",
     "build": "npm run bundle && npm run copy",
     "publish": "cd ./dist && npm publish"
   },

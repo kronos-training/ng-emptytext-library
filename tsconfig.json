@@ -14,5 +14,8 @@
   },
   "files": [
     "./lib/empty-text.ts"
-  ]
+  ],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true
+  }
 }
